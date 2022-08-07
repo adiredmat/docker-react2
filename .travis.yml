@@ -11,7 +11,7 @@ before_install:
 script:
   - docker run -e CI=true mybr0d0cker/docker-react2 npm run test -- --coverage
 
-#-http://dockerreact-env.eba-k57byhye.us-east-1.elasticbeanstalk.com/
+# -http://dockerreact-env.eba-k57byhye.us-east-1.elasticbeanstalk.com/
 
 deploy:
   provider: elastikbeanstalk
