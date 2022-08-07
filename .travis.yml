@@ -12,7 +12,7 @@ script:
   - docker run -e CI=true mybr0d0cker/docker-react2 npm run test -- --coverage
 
 deploy:
-  provider: elastikbeanstalk
+  provider: elasticbeanstalk
   region: "us-east-1" 
   app: "docker-react"
   env: "Dockerreact-env"
